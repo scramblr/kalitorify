@@ -1,42 +1,9 @@
-<img src="logo.png" alt="kalitorify">
+KALITORRIFIC TRAINWRECK. Keeping this code base around for some ideas, but building a solid version of this instead. 
 
-Transparent Proxy through Tor for Kali Linux
-
-<a href="https://github.com/brainfucksec/kalitorify/releases"><img src="https://img.shields.io/badge/version-1.17.1-blue.svg"></a>
-<a href="https://github.com/brainfucksec/kalitorify/commits/master"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg"></a>
-<a href="https://github.com/brainfucksec/kalitorify/blob/master/README.md"><img src="https://img.shields.io/badge/docs-passing-brightgreen.svg"></a>
-<a href="https://github.com/brainfucksec/kalitorify/blob/master/LICENSE"><img src="https://img.shields.io/github/license/brainfucksec/kalitorify.svg"></a>
-<a href="https://github.com/brainfucksec/kalitorify/network/members"><img src="https://img.shields.io/github/forks/brainfucksec/kalitorify.svg"></a>
+DO NOT CLONE AND USE THIS - IT'S BUGGY AND WILL ALMOST CERTAINLY BREAK YOUR MACHINE AFTER A FEW USES. YOU'VE BEEN WARNED. 
 
 
-## About kalitorify
-
-**kalitorify** is a shell script for [Kali Linux](https://www.kali.org/) which use [iptables](https://www.netfilter.org/projects/iptables/index.html) settings to create a **Transparent Proxy through the Tor Network**, the program also allows you to perform various checks like checking the Tor Exit Node (i.e. your public IP when you are under Tor proxy), or if Tor has been configured correctly checking service and network settings.
-
-In simple terms, with kalitorify you can redirect all traffic of your Kali Linux operating system through the Tor Network.
-
-
-## What is Tor?
-
-if you don't know the Tor Network and the Tor Project (but even if you know them), I suggest you read the information from here:
-
-Tor Anonimity Network on [Wikipedia](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29)
-
-Tor Project [Website](https://www.torproject.org/)
-
-
-## What is Transparent Proxy through Tor?
-
-Transparent proxy is an intermediary system that sit between a user and a content provider. When a user makes a request to a web server, the transparent proxy intercepts the request to perform various actions including caching, redirection and authentication.
-
-![alt text](https://imgur.com/c9canu4.png)
-
-Transparent proxy via Tor means that every network application will make its TCP connections through Tor; no application will be able to reveal your IP address by connecting directly.
-
-In the [Tor project wiki](https://trac.torproject.org/projects/tor/wiki/doc/TransparentProxy) you find an explanation of what is the **"Transparent Proxy through Tor"** and related settings.
-**Please read it if you want to use kalitorify safely.**
-
----
+Original Author Notes:
 
 ## Install
 
@@ -145,16 +112,3 @@ The use of program is very simple, the syntax follow the order `<program name> <
 
 ---
 
-## Thanks
-
-* kalitorify is KISS version of [Parrot AnonSurf Module](https://github.com/parrotsec/anonsurf), developed by [Parrot Project Team](https://docs.parrotsec.org/developers). Thank you guys for give me the way in developing this program.
-
-* This program could not exist without the guides of the [Tor Project official website](https://www.torproject.org/)
-
-* A special thanks goes also to the [Whonix](https://www.whonix.org/) Team and their [documentation](https://www.whonix.org/wiki/Documentation)
-
-## Support kalitorify
-
-Please consider donating to sustain this project
-
-**BITCOIN:** 1B39SnAXcR2bkxNpNy3AuckgaTshqNc2ce
